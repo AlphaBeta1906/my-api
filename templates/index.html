@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Home</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.7.1/styles/atom-one-dark.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
+	</head>
+	<body>
+		<div class="container pt-5">
+			<h1>Alpha api</h1>
+			<br>
+			<br>
+			<br>
+			<h5 class="text-lg-left pb-2">endpoint : </h5>
+			<div>
+				<p class="fw-bold">text to ascii converter</p>
+				<pre><code class="hljs"> /text_to_ascii/&lt;string:text&gt; </code></pre>
+				<p>return plain text to ascii</p>
+				<br>
+				<p class="fw-bold">ascii to text converter</p>
+				<pre><code class="hljs"> /ascii_to_text/&lt;string:_ascii&gt; </code></pre>
+				<p>return ascii to plain text</p>
+				<br>
+				<p class="fw-bold">ceasar chiper encrypt</p>
+				<pre><code class="hljs"> /caesar_encrypt/&lt;string:text&gt; </code></pre>
+				<p>encrypt plain text with caesar chiper</p>				
+				<p class="fw-bold">ceasar chiper decrypt</p>
+				<pre><code class="hljs"> /caesar_decrypt/&lt;string:text&gt; </code></pre>
+				<p>decrypt plain text from caesar chiper</p>
+			</div>
+			<br>
+			<p>more feature will be added in future...</p>
+		</div>
+	</body>
+</html>
